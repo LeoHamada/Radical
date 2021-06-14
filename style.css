@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(127, 96, 177);
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section#raiz1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin-left: 70px;
+    box-shadow: 5px 5px 10px black;
+}
+section#raiz2 {
+    margin-top: -292px;
+    margin-left: 720px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px black;
+}
+
+footer {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+h1#exemplo-x {
+    text-align: center;
+    font:normal 40pt arial ;
+} h1#exemplo-y{
+    text-align: center;
+    font:normal 40pt arial ;
+}
+div#bega1 {
+    text-align: center;
+}
