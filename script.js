@@ -7,7 +7,7 @@ botao1.addEventListener("click",function (e) {
 
     e.preventDefault();
     if (raiz == '') {
-        
+        window.alert('[erro] verifique os valores e tente novamente')
     } else {
         var resultado = 0;
         resultado= Math.sqrt(raiz)
@@ -28,10 +28,10 @@ botao2.addEventListener('click',function(e) {
 
     e.preventDefault();
     if (raiz2 == '') {
-
+        window.alert('[erro] verifique os valores e tente novamente')
     }else {
         if(indice == "") {
-
+            window.alert('[erro] verifique os valores e tente novamente')
         }else {
             var resultado2 = 0;
             resultado2 = Math.pow(raiz2,1/indice)
