@@ -6,7 +6,7 @@ botao1.addEventListener("click",function (e) {
     const res = document.getElementById('resultado')
 
     e.preventDefault();
-    if (raiz == '') {
+    if (raiz === '') {
         window.alert('[erro] verifique os valores e tente novamente')
     } else {
         var resultado = 0;
